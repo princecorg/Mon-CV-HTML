@@ -1,0 +1,50 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../font/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GoldenHopes';
+    src: url("../fonts/GoldenHopes.otf") format("opentype");
+}
+
+body
+{
+    background-image: url('../images/futuristic-texture.png');
+}
+
+h1 {
+    font-family: 'GoldenHopes', 'Helvetica', sans-serif;
+}
+
+h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    position: absolute;
+    right : 20px;
+    top: 20px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: #6E4A46;
+}
